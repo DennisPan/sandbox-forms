@@ -25,6 +25,10 @@ namespace SandboxForms.iOS
 #if ENABLE_TEST_CLOUD
             Xamarin.Calabash.Start();
 #endif
+
+            var csharpSevenFeatures = new CsharpSevenFeatures();
+            var csharpSevenFeatures1 = new CsharpSevenFeatures("User");
+
             LoadApplication(new App());
 
             return base.FinishedLaunching(app, options);
