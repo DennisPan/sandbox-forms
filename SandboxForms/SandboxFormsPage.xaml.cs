@@ -3,6 +3,7 @@ using Xamarin.Forms;
 
 namespace SandboxForms
 {
+    [Xamarin.Forms.Xaml.XamlCompilation(Xamarin.Forms.Xaml.XamlCompilationOptions.Compile)]
     public partial class SandboxFormsPage : ContentPage
     {
         public SandboxFormsPage()
