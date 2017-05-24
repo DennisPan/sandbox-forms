@@ -23,6 +23,9 @@ namespace SandboxForms.Droid
 			MobileCenter.Start("0ed89836-e6fb-4fee-b7a3-218b1bb59108",
 				   typeof(Analytics), typeof(Crashes), typeof(Distribute), typeof(Microsoft.Azure.Mobile.Push.Push));
 
+			var csharpSevenFeatures = new CsharpSevenFeatures();
+			var csharpSevenFeatures1 = new CsharpSevenFeatures("User");
+
             base.OnCreate(bundle);
 
             global::Xamarin.Forms.Forms.Init(this, bundle);
