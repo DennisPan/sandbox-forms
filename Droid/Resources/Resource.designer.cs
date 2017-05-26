@@ -26,6 +26,9 @@ namespace SandboxForms.Droid
 		
 		public static void UpdateIdValues()
 		{
+			global::Microsoft.Azure.Mobile.Push.Android.Resource.Integer.google_play_services_version = global::SandboxForms.Droid.Resource.Integer.google_play_services_version;
+			global::Microsoft.Azure.Mobile.Push.Android.Resource.String.common_google_play_services_unknown_issue = global::SandboxForms.Droid.Resource.String.common_google_play_services_unknown_issue;
+			global::Microsoft.Azure.Mobile.Push.Android.Resource.String.library_name = global::SandboxForms.Droid.Resource.String.library_name;
 			global::Microsoft.Azure.Mobile.Distribute.Resource.String.mobile_center_distribute_dialog_actioned_on_disabled_toast = global::SandboxForms.Droid.Resource.String.mobile_center_distribute_dialog_actioned_on_disabled_toast;
 			global::Microsoft.Azure.Mobile.Distribute.Resource.String.mobile_center_distribute_download_progress_number_format = global::SandboxForms.Droid.Resource.String.mobile_center_distribute_download_progress_number_format;
 			global::Microsoft.Azure.Mobile.Distribute.Resource.String.mobile_center_distribute_downloading_mandatory_update = global::SandboxForms.Droid.Resource.String.mobile_center_distribute_downloading_mandatory_update;
@@ -40,9 +43,6 @@ namespace SandboxForms.Droid
 			global::Microsoft.Azure.Mobile.Distribute.Resource.String.mobile_center_distribute_update_dialog_postpone = global::SandboxForms.Droid.Resource.String.mobile_center_distribute_update_dialog_postpone;
 			global::Microsoft.Azure.Mobile.Distribute.Resource.String.mobile_center_distribute_update_dialog_title = global::SandboxForms.Droid.Resource.String.mobile_center_distribute_update_dialog_title;
 			global::Microsoft.Azure.Mobile.Distribute.Resource.String.mobile_center_distribute_update_dialog_view_release_notes = global::SandboxForms.Droid.Resource.String.mobile_center_distribute_update_dialog_view_release_notes;
-			global::Microsoft.Azure.Mobile.Push.Android.Resource.Integer.google_play_services_version = global::SandboxForms.Droid.Resource.Integer.google_play_services_version;
-			global::Microsoft.Azure.Mobile.Push.Android.Resource.String.common_google_play_services_unknown_issue = global::SandboxForms.Droid.Resource.String.common_google_play_services_unknown_issue;
-			global::Microsoft.Azure.Mobile.Push.Android.Resource.String.library_name = global::SandboxForms.Droid.Resource.String.library_name;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.actionBarSize = global::SandboxForms.Droid.Resource.Attribute.actionBarSize;
 		}
 		
@@ -3702,50 +3702,50 @@ namespace SandboxForms.Droid
 			// aapt resource value: 0x7f0a003d
 			public const int common_google_play_services_unknown_issue = 2131361853;
 			
+			// aapt resource value: 0x7f0a004c
+			public const int library_name = 2131361868;
+			
 			// aapt resource value: 0x7f0a003e
-			public const int library_name = 2131361854;
+			public const int mobile_center_distribute_dialog_actioned_on_disabled_toast = 2131361854;
 			
 			// aapt resource value: 0x7f0a003f
-			public const int mobile_center_distribute_dialog_actioned_on_disabled_toast = 2131361855;
+			public const int mobile_center_distribute_download_progress_number_format = 2131361855;
 			
 			// aapt resource value: 0x7f0a0040
-			public const int mobile_center_distribute_download_progress_number_format = 2131361856;
+			public const int mobile_center_distribute_downloading_mandatory_update = 2131361856;
 			
 			// aapt resource value: 0x7f0a0041
-			public const int mobile_center_distribute_downloading_mandatory_update = 2131361857;
+			public const int mobile_center_distribute_install = 2131361857;
 			
 			// aapt resource value: 0x7f0a0042
-			public const int mobile_center_distribute_install = 2131361858;
+			public const int mobile_center_distribute_install_ready_message = 2131361858;
 			
 			// aapt resource value: 0x7f0a0043
-			public const int mobile_center_distribute_install_ready_message = 2131361859;
+			public const int mobile_center_distribute_install_ready_title = 2131361859;
 			
 			// aapt resource value: 0x7f0a0044
-			public const int mobile_center_distribute_install_ready_title = 2131361860;
+			public const int mobile_center_distribute_unknown_sources_dialog_message = 2131361860;
 			
 			// aapt resource value: 0x7f0a0045
-			public const int mobile_center_distribute_unknown_sources_dialog_message = 2131361861;
+			public const int mobile_center_distribute_unknown_sources_dialog_settings = 2131361861;
 			
 			// aapt resource value: 0x7f0a0046
-			public const int mobile_center_distribute_unknown_sources_dialog_settings = 2131361862;
+			public const int mobile_center_distribute_update_dialog_download = 2131361862;
 			
 			// aapt resource value: 0x7f0a0047
-			public const int mobile_center_distribute_update_dialog_download = 2131361863;
+			public const int mobile_center_distribute_update_dialog_message_mandatory = 2131361863;
 			
 			// aapt resource value: 0x7f0a0048
-			public const int mobile_center_distribute_update_dialog_message_mandatory = 2131361864;
+			public const int mobile_center_distribute_update_dialog_message_optional = 2131361864;
 			
 			// aapt resource value: 0x7f0a0049
-			public const int mobile_center_distribute_update_dialog_message_optional = 2131361865;
+			public const int mobile_center_distribute_update_dialog_postpone = 2131361865;
 			
 			// aapt resource value: 0x7f0a004a
-			public const int mobile_center_distribute_update_dialog_postpone = 2131361866;
+			public const int mobile_center_distribute_update_dialog_title = 2131361866;
 			
 			// aapt resource value: 0x7f0a004b
-			public const int mobile_center_distribute_update_dialog_title = 2131361867;
-			
-			// aapt resource value: 0x7f0a004c
-			public const int mobile_center_distribute_update_dialog_view_release_notes = 2131361868;
+			public const int mobile_center_distribute_update_dialog_view_release_notes = 2131361867;
 			
 			// aapt resource value: 0x7f0a0000
 			public const int mr_button_content_description = 2131361792;
