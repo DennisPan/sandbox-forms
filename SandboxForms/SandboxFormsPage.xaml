@@ -1,4 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:local="clr-namespace:SandboxForms" x:Class="SandboxForms.SandboxFormsPage">
-    <Label x:Name="label" Text="Welcome to Xamarin Forms!" VerticalOptions="Center" HorizontalOptions="Center" />
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:local="clr-namespace:SandboxForms" xmlns:xlabs="clr-namespace:XLabs.Forms.Controls;assembly=XLabs.Forms" x:Class="SandboxForms.SandboxFormsPage">
+    <StackLayout>
+        <xlabs:CalendarView />
+        <xlabs:Separator HorizontalOptions="FillAndExpand" Color="Gray"/>
+        <xlabs:HyperLinkLabel Text="http://mobile.azure.com" NavigateUri="http://mobile.azure.com" />
+        <xlabs:Separator HorizontalOptions="FillAndExpand" Color="Gray"/>
+        <xlabs:ExtendedTimePicker x:Name="extendedTimePicker"/>
+        <xlabs:Separator HorizontalOptions="FillAndExpand" Color="Gray"/>
+        <xlabs:ExtendedLabel x:Name="extendedLabel" />
+    </StackLayout>
 </ContentPage>
