@@ -26,9 +26,6 @@ namespace SandboxForms.iOS
             Xamarin.Calabash.Start();
 #endif
 
-            var csharpSevenFeatures = new CsharpSevenFeatures();
-            var csharpSevenFeatures1 = new CsharpSevenFeatures("User");
-
             LoadApplication(new App());
 
             return base.FinishedLaunching(app, options);
