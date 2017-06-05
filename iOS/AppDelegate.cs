@@ -26,10 +26,22 @@ namespace SandboxForms.iOS
             Xamarin.Calabash.Start();
 #endif
 
-            var csharpSevenFeatures = new CsharpSevenFeatures();
-            var csharpSevenFeatures1 = new CsharpSevenFeatures("User");
-
             LoadApplication(new App());
+
+            var assembly = System.Reflection.Assembly.GetAssembly(typeof(AppDelegate));
+			var assemblyName = assembly.GetName().Name;
+			var gitVersionInformationType = assembly.GetType(assemblyName + ".GitVersionInformation");
+			var versionFieldMajor = gitVersionInformationType.GetField("Major").GetValue(null);
+            var versionFieldMinor = gitVersionInformationType.GetField("Minor").GetValue(null);
+            var versionFieldPatch = gitVersionInformationType.GetField("Patch").GetValue(null);
+            System.Diagnostics.Debug.WriteLine($"Version: {versionFieldMajor}.{versionFieldMinor}.{versionFieldPatch}");
+
+			var fields = gitVersionInformationType.GetFields();
+
+			foreach (var field in fields)
+			{
+				System.Diagnostics.Debug.WriteLine(string.Format("{0}: {1}", field.Name, field.GetValue(null)));
+			}
 
             return base.FinishedLaunching(app, options);
         }
