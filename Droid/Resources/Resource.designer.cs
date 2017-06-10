@@ -43,6 +43,7 @@ namespace SandboxForms.Droid
 			global::Microsoft.Azure.Mobile.Push.Android.Resource.Integer.google_play_services_version = global::SandboxForms.Droid.Resource.Integer.google_play_services_version;
 			global::Microsoft.Azure.Mobile.Push.Android.Resource.String.common_google_play_services_unknown_issue = global::SandboxForms.Droid.Resource.String.common_google_play_services_unknown_issue;
 			global::Microsoft.Azure.Mobile.Push.Android.Resource.String.library_name = global::SandboxForms.Droid.Resource.String.library_name;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.actionBarSize = global::SandboxForms.Droid.Resource.Attribute.actionBarSize;
 		}
 		
 		public partial class Animation
